@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Her Choice - Product Details</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      background-color: #fffbea;
+      color: #333;
+    }
+    header {
+      background-color: #f9d71c;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .container {
+      max-width: 700px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      color: #f9a825;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 1rem;
+    }
+    td {
+      padding: 0.8rem 1rem;
+      border-bottom: 1px solid #eee;
+    }
+    td:first-child {
+      font-weight: bold;
+      width: 40%;
+      color: #444;
+    }
+    td:last-child {
+      color: #666;
+    }
+    .btn {
+      display: block;
+      margin: 1.5rem auto 0;
+      padding: 0.8rem 1.5rem;
+      background: #f9d71c;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #fbc02d;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>Her Choice Product Details</header>
+
+  <div class="container">
+    <h2>Her Choice Comfort</h2>
+    <table>
+      <tr>
+        <td>Product Name</td>
+        <td>Menstrual Cups (XL)</td>
+      </tr>
+      <tr>
+        <td>Manufacturing Date</td>
+        <td>March 2025</td>
+      </tr>
+      <tr>
+        <td>Expiry Date</td>
+        <td>February 2028</td>
+      </tr>
+      <tr>
+        <td>Date of Purchase</td>
+        <td>04 September 2025</td>
+      </tr>
+      <tr>
+        <td>Description</td>
+        <td>Ultra-soft, eco-friendly sanitary pads designed for maximum comfort and long-lasting protection.</td>
+      </tr>
+    </table>
+    <button class="btn" onclick="showThanks()">Confirm Details</button>
+  </div>
+
+  <footer>© 2025 Her Choice. All Rights Reserved.</footer>
+
+  <script>
+    function showThanks() {
+      alert("Product details confirmed. Thank you for trusting Her Choice!");
+    }
+  </script>
+
+</body>
+</html>
